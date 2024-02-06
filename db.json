@@ -1,0 +1,60 @@
+{
+  "employee": [
+    {
+      "name": "Shyam Singh",
+      "email": "shyam.sh@gmail.com",
+      "phone": "6541247890",
+      "id": 3,
+      "gender": "Male"
+    },
+    {
+      "name": "Sudha Sharma",
+      "email": "sud@gmail.com",
+      "phone": "8546212364",
+      "gender": "Female",
+      "id": 4
+    },
+    {
+      "name": "Tushar Kumar",
+      "email": "tushar@gmail.com",
+      "phone": "6541287496",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "name": "Rubi Chaudhary",
+      "email": "ruby@yahoo.in",
+      "phone": "6521347895",
+      "gender": "Female",
+      "id": 6
+    },
+    {
+      "name": "Kapil Singh",
+      "email": "kap@gmail.com",
+      "phone": "8541236541",
+      "gender": "Male",
+      "id": 7
+    },
+    {
+      "name": "Pooja Singh",
+      "email": "pooj@yahoo.co.in",
+      "phone": "6541785412",
+      "gender": "Female",
+      "id": 8
+    },
+    {
+      "name": "Ankur Thakur",
+      "email": "ank@gmail.com",
+      "phone": "8541247896",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "name": "Hitesh Chaudhary",
+      "email": "hitch@gmail.com",
+      "phone": "8421369870",
+      "gender": "Male",
+      "id": 10
+    }
+  ]
+}
