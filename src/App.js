@@ -21,6 +21,4 @@ function App() {
 
 export default App;
 
-// 27:19 / 1:11:26 video completed
-
 
