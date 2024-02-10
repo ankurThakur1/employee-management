@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "setup":"concurrently --kill-others-on-fail \"npm start\" \"npm run server\"",
     "server": "json-server --watch db.json --port 8000"
   },
   "eslintConfig": {
