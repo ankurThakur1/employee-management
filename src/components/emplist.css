@@ -2,7 +2,7 @@
     max-width: 78%;
     max-height: 100vh;
     margin: 0 auto;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     /* border: 2px solid black; */
 }
 ::-webkit-scrollbar{
