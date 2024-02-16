@@ -15,7 +15,7 @@ const EmpList = () => {
 
     const fetchEmpDetails = async () => {
         try {
-            const res = await fetch(`https://json-server-api-steel.vercel.app/`);
+            const res = await fetch(`https://json-server-api-steel.vercel.app/employee`);
             const data  = await res.json();
             console.log(data);
             setEmpLists(data);
@@ -34,7 +34,7 @@ const EmpList = () => {
     if(error) return  <h1>{"Error occured while fetching employees"}</h1>
 
     const handleDelete = async (id) => {
-        const res = await fetch(`https://json-server-api-steel.vercel.app/${id}`, {
+        const res = await fetch(`https://json-server-api-steel.vercel.app/employee/${id}`, {
             method: "DELETE"
         })
         .then((res) => {

@@ -11,7 +11,7 @@ const Update = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-      fetch(`https://json-server-api-steel.vercel.app/${id}`)
+      fetch(`https://json-server-api-steel.vercel.app/employee/${id}`)
       .then((res) => {
         return res.json();
       })
@@ -36,7 +36,7 @@ const Update = () => {
     const handleEdit = (e) => {
       e.preventDefault();
 
-      fetch(`https://json-server-api-steel.vercel.app/${id}`, {
+      fetch(`https://json-server-api-steel.vercel.app/employee/${id}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json"

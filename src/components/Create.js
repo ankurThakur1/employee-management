@@ -23,7 +23,7 @@ const Create = () => {
             alert("Please fill all fields");
         } 
         else{
-            await fetch(`https://json-server-api-steel.vercel.app/`, {
+            await fetch(`https://json-server-api-steel.vercel.app/employee`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

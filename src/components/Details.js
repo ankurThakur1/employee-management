@@ -7,7 +7,7 @@ const Details = ({ setModal, id }) => {
     // const { id } = useParams();
 
     useEffect(() => {
-      fetch(`https://json-server-api-steel.vercel.app/${id}`)
+      fetch(`https://json-server-api-steel.vercel.app/employee/${id}`)
       .then((res) => {
         return res.json();
       })
